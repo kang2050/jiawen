@@ -1,0 +1,41 @@
+# Python
+nerfstudio-env/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Node
+jiawen/client/node_modules/
+jiawen/client/dist/
+jiawen/client/.vite/
+
+# 旧高斯泼贱 / NeRF 文件
+colmap/
+gaussian-splatting/
+splatfacto/
+10000/
+jiawen-full-package/
+动物模型仓库/
+宠物3D数字化/
+宠物数字生命展示和演示/
+宠物数字生命展示和演示项目设计/
+宠物数字生命展示和演示项目设计.zip
+佳文-宠物永生数字生命-完整项目包.zip
+
+# 误创建的命令片段文件
+--colmap-path
+--data
+--machine.device-type
+--max-num-iterations
+--output-dir
+mps
+cd
+
+# 输出目录（体积大）
+jiawen-engine/outputs/
+
+# 系统
+.DS_Store
+*.log

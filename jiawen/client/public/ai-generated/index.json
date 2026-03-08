@@ -1,0 +1,50 @@
+{
+  "style_previews": {
+    "pixar": "/ai-generated/style_pixar.png",
+    "japanese": "/ai-generated/style_japanese.png",
+    "ghibli": "/ai-generated/style_ghibli.png",
+    "guochao": "/ai-generated/style_guochao.png"
+  },
+  "emoji_stickers": [
+    {
+      "filename": "emoji_01_laugh.png",
+      "name": "哈哈大笑",
+      "url": "/ai-generated/emoji_01_laugh.png"
+    },
+    {
+      "filename": "emoji_02_clingy.png",
+      "name": "撒娇卖萌",
+      "url": "/ai-generated/emoji_02_clingy.png"
+    },
+    {
+      "filename": "emoji_03_sleep.png",
+      "name": "睡着打盹",
+      "url": "/ai-generated/emoji_03_sleep.png"
+    },
+    {
+      "filename": "emoji_04_hungry.png",
+      "name": "超级饿",
+      "url": "/ai-generated/emoji_04_hungry.png"
+    },
+    {
+      "filename": "emoji_05_angry.png",
+      "name": "生气了",
+      "url": "/ai-generated/emoji_05_angry.png"
+    },
+    {
+      "filename": "emoji_06_shocked.png",
+      "name": "哇！惊呆了",
+      "url": "/ai-generated/emoji_06_shocked.png"
+    },
+    {
+      "filename": "emoji_07_love.png",
+      "name": "爱心满满",
+      "url": "/ai-generated/emoji_07_love.png"
+    },
+    {
+      "filename": "emoji_08_tsundere.png",
+      "name": "傲娇翻白眼",
+      "url": "/ai-generated/emoji_08_tsundere.png"
+    }
+  ]
+}

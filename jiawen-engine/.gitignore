@@ -1,0 +1,7 @@
+.venv/
+outputs/
+__pycache__/
+*.pyc
+assets/skeletons/smal/*.pkl
+*.egg-info/
+.DS_Store

@@ -1,0 +1,9 @@
+# Video2Pet Environment Variables
+# ================================
+# Copy this file to .env and fill in your API keys
+
+# Google Veo API (for AI video generation)
+GOOGLE_API_KEY=your_google_api_key_here
+
+# OpenAI API (for Sora video generation)
+OPENAI_API_KEY=your_openai_api_key_here

@@ -1,0 +1,73 @@
+# Video2Pet Default Configuration
+# ================================
+
+# Project settings
+project_dir: output
+device: ""  # auto-detect (cuda, mps, cpu)
+num_workers: 4
+verbose: true
+
+# Video processing
+video:
+  max_frames: 300
+  target_fps: 15
+  target_resolution: [1280, 720]
+  stabilize: true
+  auto_crop: true
+
+# Pose estimation
+pose:
+  model_name: vitpose_animal  # vitpose_animal | apple_vision | deeplabcut
+  confidence_threshold: 0.5
+  num_keypoints: 24
+  use_tracking: true
+  batch_size: 16
+  smal_model_path: models/smal/smal_CVPR2018.pkl
+  smal_data_path: models/smal/
+
+# 3D Reconstruction
+reconstruction:
+  method: gaussian_splatting  # gaussian_splatting | nerf | colmap_mesh
+  gs_iterations: 30000
+  gs_sh_degree: 3
+  gs_densify_until_iter: 15000
+  gs_position_lr_init: 0.00016
+  gs_position_lr_final: 0.0000016
+  sfm_method: colmap
+  mesh_resolution: 256
+  texture_resolution: 2048
+
+# Rigging
+rigging:
+  skeleton_type: quadruped
+  auto_rig: true
+  pet_type: dog
+  breed: generic
+  smooth_motion: true
+  motion_fps: 30
+
+# Export
+export:
+  formats: [glb, usdz, fbx]
+  include_animation: true
+  include_texture: true
+  include_fur: false
+  compress: true
+  glb_draco_compression: true
+  texture_format: png
+
+# API keys (override via environment variables)
+api:
+  google_api_key: ""  # GOOGLE_API_KEY
+  openai_api_key: ""  # OPENAI_API_KEY
+  veo_model: veo-2.0-generate-001
+  sora_model: sora
+  video_duration: 5
+  video_resolution: 720p
+
+# Web UI
+web:
+  host: "0.0.0.0"
+  port: 8000
+  share: false
+  max_upload_size_mb: 500

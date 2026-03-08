@@ -1,0 +1,49 @@
+# Cat-specific configuration
+# ===========================
+
+rigging:
+  skeleton_type: quadruped
+  pet_type: cat
+
+breeds:
+  persian:
+    body_length: 0.8
+    leg_length: 0.85
+    head_size: 1.2
+    typical_height_cm: 25
+    typical_weight_kg: 5
+
+  siamese:
+    body_length: 0.9
+    leg_length: 1.0
+    head_size: 0.95
+    typical_height_cm: 28
+    typical_weight_kg: 4
+
+  maine_coon:
+    body_length: 1.1
+    leg_length: 1.0
+    head_size: 1.1
+    typical_height_cm: 35
+    typical_weight_kg: 8
+
+  british_shorthair:
+    body_length: 0.85
+    leg_length: 0.9
+    head_size: 1.15
+    typical_height_cm: 30
+    typical_weight_kg: 6
+
+  ragdoll:
+    body_length: 1.0
+    leg_length: 0.95
+    head_size: 1.05
+    typical_height_cm: 32
+    typical_weight_kg: 7
+
+  generic:
+    body_length: 0.85
+    leg_length: 0.9
+    head_size: 1.1
+    typical_height_cm: 25
+    typical_weight_kg: 4
