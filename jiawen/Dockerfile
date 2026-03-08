@@ -27,8 +27,9 @@ RUN pnpm install --frozen-lockfile --prod
 # 从构建阶段复制产物
 COPY --from=builder /app/dist ./dist
 
-EXPOSE 3000
+EXPOSE 80
 
 ENV NODE_ENV=production
+ENV PORT=80
 
 CMD ["node", "dist/index.js"]
